@@ -87,9 +87,9 @@
 				651D46B41AEA908D003535D8 /* GameScene.sks */,
 				651D46B61AEA908D003535D8 /* GameScene.swift */,
 				651D46B81AEA908D003535D8 /* GameViewController.swift */,
+				651D46D61AEA95D6003535D8 /* Vader.swift */,
 				651D46BA1AEA908D003535D8 /* Main.storyboard */,
 				651D46BD1AEA908D003535D8 /* Images.xcassets */,
-				651D46D61AEA95D6003535D8 /* Vader.swift */,
 				651D46BF1AEA908D003535D8 /* LaunchScreen.xib */,
 				651D46B01AEA908D003535D8 /* Supporting Files */,
 			);
@@ -419,6 +419,7 @@
 				651D46D21AEA908D003535D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		651D46D31AEA908D003535D8 /* Build configuration list for PBXNativeTarget "Day1Tests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				651D46D51AEA908D003535D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

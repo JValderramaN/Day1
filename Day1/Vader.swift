@@ -11,14 +11,20 @@ import SpriteKit
 
 class Vader : SKSpriteNode{
     
+    //just for use more memory
+    var vName : String = "NAAAAAAAAAAME"
+    var iValue : Int?
+    
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    init(imagenamed: String){
+    init(imagenamed: String, iValue: Int){
         let imageTexture = SKTexture(imageNamed: imagenamed)
         super.init(texture:imageTexture,color:nil,size:imageTexture.size())
         
+        self.iValue = iValue
         self.physicsBody = SKPhysicsBody(rectangleOfSize: imageTexture.size())
         self.physicsBody?.dynamic = false
         self.physicsBody?.mass = 1
@@ -28,4 +34,5 @@ class Vader : SKSpriteNode{
         self.physicsBody?.dynamic = true
     }
 
+ 
 }
